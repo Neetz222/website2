@@ -321,6 +321,7 @@ footer {
     width: 100%;
     overflow: hidden;
     border: 1px solid #ccc;
+    display: none;
    
 }
 
