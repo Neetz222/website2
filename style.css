@@ -1,0 +1,404 @@
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display:block;
+}
+
+body {
+  line-height:1;
+}
+
+ul, ol {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content:'';
+  content:none;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+*{
+
+    box-sizing: border-box;
+}
+
+html{
+    background: url(assets/background6.jpg) fixed no-repeat;
+    
+    background-size: cover;
+    position: relative;
+    min-height: 100%;
+}
+
+header{
+    
+    position: absolute;
+    z-index: 5;
+    height: 90px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+   
+    
+}
+
+
+
+
+body {
+    100rem;
+    margin: 0 0 100px;
+    /* bottom = footer height */
+}
+
+div{
+    
+    color:black;
+    font-family: 'Arial';
+    font-weight: 900;
+    font-size: 20px;
+    
+   
+    //background-image: url(assets/law%20litigation.svg);
+    //background-image: url(assets/border.svg);
+    background-image: no-repeat;
+    background-size: cover;
+    border: solid 2px;
+    border-color: black;
+    margin: 20px;
+    
+    width: 200px;
+    height:200px;
+}
+
+div{
+    display: inline-block;
+    position: absolute;
+    padding: 40px;
+    right: 22.5rem;
+    
+}
+    
+.block1{top: 200px; background-color: whitesmoke;}
+
+.block2{top: 440px; background-color: whitesmoke;}
+
+.block3{top: 680px; background-color: whitesmoke;}
+
+.block4{top: 920px; background-color: whitesmoke;}
+
+.block7{top: 200px; right: 600px; background-color: whitesmoke;}
+
+.block8{top: 440px; right: 600px; background-color: whitesmoke;}
+
+.block9{top: 680px; right: 600px; background-color: whitesmoke;}
+
+.block10{top: 920px; right: 600px; background-color: whitesmoke;}
+
+.block11{top: 200px; right: 115px; background-color: whitesmoke;}
+
+.block12{top: 440px; right: 115px; background-color: whitesmoke;}
+
+.block5{top: 680px; right: 115px; background-color: whitesmoke;}
+
+.block6{top: 920px; right: 115px; background-color: whitesmoke;}
+
+
+.inna{
+    background: none;
+    position: relative;
+    top: 150px;
+}
+
+.cos{
+    background: none;
+}
+
+.inside1{border: none; background-image: url(assets/agreement.svg); width: 50%; height: 50%; right: 30px; top: -10px;}
+.inside2{border: none; background-image: url(assets/company.svg); width: 50%; height: 50%; right: 30px; top: -10px;}
+.inside3{border: none; background-image: url(assets/car.svg); width: 50%; height: 50%; right: 30px; top: -10px;}
+.inside4{border: none; background-image: url(assets/home.svg); width: 50%; height: 50%; right: 30px; top: -10px;}
+.inside5{border: none; background-image: url(assets/gmina.svg); width: 50%; height: 50%; right: 30px; top: -10px;}
+.inside6{border: none; background-image: url(assets/other.svg); width: 50%; height: 50%; right: 30px; top: 0px;}
+.inside7{border: none; background-image: url(assets/law%20litigation.svg); width: 50%; height: 50%; right: 30px; top: -10px;}
+.inside8{border: none; background-image: url(assets/tools.svg); width: 50%; height: 50%; right: 30px; top: -10px;}
+.inside9{border: none; background-image: url(assets/law.svg); width: 50%; height: 50%; right: 30px; top: -10px;}
+.inside10{border: none; background-image: url(assets/cons.svg); width: 50%; height: 50%; right: 30px; top: -10px;}
+.inside11{border: none; background-image: url(assets/dev.svg); width: 50%; height: 50%; right: 30px; top: -10px;}
+.inside12{border: none; background-image: url(assets/will.svg); width: 50%; height: 50%; right: 30px; top: -10px;}
+
+.insidetext1, .insidetext2, .insidetext3, .insidetext4, .insidetext5, .insidetext6, .insidetext7, .insidetext8, .insidetext9, .insidetext10, .insidetext11, .insidetext12{
+    
+    
+    top: 100px;
+    left: 0px;
+    padding: 4px;
+}
+
+.insidetext1{
+    top: 65px;
+    left: -15px;
+}
+
+.insidetext2{
+   top: 69px;
+    
+}
+
+.insidetext3{
+    top: 80px;
+}
+
+.insidetext4{
+    left: -10px;
+    top: 90px;
+}
+
+.insidetext5{
+    left: 5px;
+    top: 67px;
+}
+
+.insidetext6{
+    left: 30px;
+    top: 100px;
+}
+
+.insidetext7{
+    left: 20px;
+    top: 85px;
+}
+
+.insidetext8{
+    top: 69px;
+    left: -20px;
+}
+
+.insidetext9{
+    left: 5px;
+    top: 90px;
+}
+
+.insidetext10{
+    left: -15px;
+    top:87px;
+}
+
+.insidetext11{
+    left: -5px;
+    top: 80px;
+}
+
+.insidetext12{
+    left: 13px;
+}
+
+
+
+span{
+    position: relative;
+    top: 200px;
+    left: 40px;
+}
+ 
+.menu{
+    background-image: url(assets/menu.svg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 140px;
+    top: 0.8rem;
+}
+
+
+.contact{
+    
+    position: absolute;
+    background-image: url(assets/contact2.svg);
+        width: 50px;
+    height: 50px;
+    background-size: cover;
+    right: 250px;
+    top: 0.8rem;
+}
+ 
+ 
+ul > li ul {
+     padding: 0;
+     position: absolute; 
+     display: none; 
+     left: -150px; 
+     top: 50px; 
+     width: 200px; 
+     text-align: left;
+     background-color: white;
+     border: 1px solid #ccc;
+}
+ 
+ul li:hover > ul {
+     display: block;
+}
+ 
+
+ 
+ul > li ul li {
+     margin: 0; 
+     padding: 0;
+     position: relative; 
+     float: none; 
+     height: auto;
+}
+ 
+ul > li ul li a {
+     padding: 10px 20px; 
+     color: #505050; 
+     text-decoration: none;
+     display: block;
+    
+    
+}
+ 
+ul > li ul li a:hover,
+ul > li ul li:hover > a {
+     text-decoration: none;
+     color: black;
+     background-color: gainsboro;
+}
+
+.logo{
+    left: 50px;
+    top: 0.1rem;
+    font-size: 60px;
+    font-weight: 900;
+    
+   
+}
+
+.logo2{
+
+    font-size: 12px;
+    font-weight: 900;
+    top: 4rem;
+    position: absolute;
+    left: 0.1rem;
+    width: 100px;
+    
+    
+}
+
+.fb{
+    position: relative;
+    
+    
+    
+    background-image: url(assets/facebook.svg);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: none;
+    
+}
+
+
+
+
+footer {
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+   
+}
+
+
+section{
+    display: block;
+    height: 150vh;
+}
+
+a{
+    color: black;
+}
+
+.hcontact1{
+    position: absolute;
+    right: 25rem;
+    top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.hcontact2{
+    position: absolute;
+    right: 33rem;
+    top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.hcontact3{
+    position: absolute;
+    right: 41rem;
+    top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+/*    
+
+
+.blocks{
+    position: absolute;
+    right: 20px;
+}
+
+.block1{
+    position: absolute;
+    right: 20px;
+    
+}
+
+.block2{
+    position: absolute;
+    right: 20px;
+    top: 80px;
+}
+
+         <div class="block1"><div class="inna">xD</div></div>
+            <div class="block2"><span class="inna">xD2</span></div>
+            <a href="facebook.com"> <div class="block3"></div> </a>
+            <div class="block4"></div>
+            <div class="block5"></div>
+            <div class="block6"></div>
+            <div class="block7"></div>
+            <div class="block8"></div>
+            <div class="block9"></div>
+            <div class="block10"></div>
+            <div class="block11"></div>
+            <div class="block12"></div>
+
+container{ 
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom:-29px; /* - height of footer */
+}
+*/
+
