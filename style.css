@@ -43,7 +43,7 @@ header{
     
     position: absolute;
     z-index: 5;
-    height: 90px;
+    height: 100px;
     width: 100%;
     background-color: whitesmoke;
     border: 1px solid #ccc;
@@ -288,7 +288,7 @@ ul > li ul li:hover > a {
 
     font-size: 12px;
     font-weight: 900;
-    top: 4rem;
+    top: 4.5rem;
     position: absolute;
     left: 0.1rem;
     width: 100px;
